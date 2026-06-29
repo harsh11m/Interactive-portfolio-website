@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="description" content="Harsh Nakhale — B.Tech CSE student at MIT ADT University. Personal portfolio showcasing web development projects, UI design, and skills." />
+  <meta name="author" content="Harsh Nakhale" />
+  <meta name="theme-color" content="#3b82f6" />
+  
+  <meta property="og:title" content="Harsh Nakhale | Developer Portfolio" />
+  <meta property="og:description" content="B.Tech CSE student passionate about building clean, functional web experiences." />
+  <meta property="og:type" content="website" />
+  
+  <title>Harsh Nakhale | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <a class="nav-brand" href="#home" aria-label="Harsh Nakhale Home">Harsh Portfolio</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <p class="hero-greeting">Hey there, I'm</p>
+        <h1 class="hero-name" id="hero-heading">Harsh Nakhale</h1>
+        <p class="hero-role" id="typingText" aria-live="polite" aria-atomic="true"></p>
+        <p class="hero-sub">
+          A B.Tech CSE Student at MIT ADT University. I love turning complex problems into clean, aesthetic, and highly functional web experiences.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">Check Out My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="avatar-ring">
+          <img src="harsh.jpg" alt="Harsh Nakhale" class="profile-image" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 class="section-title" id="about-heading">Behind the Code</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm currently navigating my Computer Science and Engineering degree at MIT ADT University (Loni Kalbhor). For me, coding isn't just about writing scripts—it's about building digital environments that people actually enjoy using. 
+            </p>
+            <p>
+              When I'm not debugging code or designing UI grids, you can usually find me catching up on the latest anime, tracking high-performance sports cars, keeping an eye on the cricket scores . 
+            </p>
+
+            <div class="about-stats" aria-label="Quick stats">
+              <div class="stat">
+                <span class="stat-num" data-target="5">0</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-target="2">0</span>
+                <span class="stat-label">Years Coding</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-target="5">0</span>
+                <span class="stat-label">Core Tech Stacks</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards">
+            <div class="info-card">
+              <span class="info-icon" aria-hidden="true">🎓</span>
+              <div>
+                <strong>Education</strong>
+                <p>B.Tech CSE, MIT ADT University</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Base</strong>
+                <p>Pune, Maharashtra</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon" aria-hidden="true">💻</span>
+              <div>
+                <strong>Focus</strong>
+                <p>Web Dev & Modern UI Aesthetics</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon" aria-hidden="true">🚀</span>
+              <div>
+                <strong>Drive</strong>
+                <p>Building impactful digital experiences</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 class="section-title" id="skills-heading">My Toolkit</h2>
+
+        <div class="skills-grid">
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>HTML5</span>
+              <span class="skill-pct" aria-hidden="true">90%</span>
+            </div>
+            <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 — 90%">
+              <div class="skill-fill" style="--w: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>CSS3</span>
+              <span class="skill-pct" aria-hidden="true">80%</span>
+            </div>
+            <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 — 80%">
+              <div class="skill-fill" style="--w: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>JavaScript</span>
+              <span class="skill-pct" aria-hidden="true">70%</span>
+            </div>
+            <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript — 70%">
+              <div class="skill-fill" style="--w: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Python</span>
+              <span class="skill-pct" aria-hidden="true">60%</span>
+            </div>
+            <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="Python — 60%">
+              <div class="skill-fill" style="--w: 60%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Git & GitHub</span>
+              <span class="skill-pct" aria-hidden="true">55%</span>
+            </div>
+            <div class="skill-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Git and GitHub — 55%">
+              <div class="skill-fill" style="--w: 55%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Responsive Design</span>
+              <span class="skill-pct" aria-hidden="true">50%</span>
+            </div>
+            <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="Responsive Design — 50%">
+              <div class="skill-fill" style="--w: 50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 class="section-title" id="projects-heading">Recent Builds</h2>
+
+        <div class="filter-btns" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-btn" data-filter="app" aria-pressed="false">App</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card" data-category="web">
+            <div class="project-img" style="background: linear-gradient(135deg, #a78bfa, #f472b6)" aria-hidden="true">🌐</div>
+            <div class="project-body">
+              <h3>Personal Portfolio</h3>
+              <p>A responsive digital hub built to showcase my journey. Features a custom dark mode, CSS animations, and highly semantic markup.</p>
+              <ul class="project-tags" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm">Live Demo</a>
+                <a href="https://github.com/harsh11m" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="app">
+            <div class="project-img" style="background: linear-gradient(135deg, #34d399, #059669)" aria-hidden="true">✅</div>
+            <div class="project-body">
+              <h3>Taskmaster App</h3>
+              <p>A lightweight, browser-based to-do application utilizing localStorage to ensure tasks persist seamlessly across user sessions.</p>
+              <ul class="project-tags" aria-label="Technologies used">
+                <li>JavaScript</li>
+                <li>localStorage</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm">Live Demo</a>
+                <a href="https://github.com/harsh11m" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-img" style="background: linear-gradient(135deg, #fb923c, #ef4444)" aria-hidden="true">🎨</div>
+            <div class="project-body">
+              <h3>Interactive Gallery</h3>
+              <p>A dynamic image grid featuring a lightbox overlay, smooth keyboard navigation, and hardware-accelerated CSS transitions.</p>
+              <ul class="project-tags" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm">Live Demo</a>
+                <a href="https://github.com/harsh11m" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 class="section-title" id="gallery-heading">Visualizing the Journey</h2>
+
+        <div class="slider-wrapper" id="sliderWrapper">
+          <div class="slider" id="slider" aria-roledescription="carousel" aria-label="Learning journey highlights">
+            <figure class="slide active" style="background: linear-gradient(135deg, #a78bfa, #f472b6)" role="group" aria-roledescription="slide" aria-label="1 of 4">
+              <figcaption><span>💡 Mastering the DOM</span></figcaption>
+            </figure>
+            <figure class="slide" style="background: linear-gradient(135deg, #34d399, #059669)" role="group" aria-roledescription="slide" aria-label="2 of 4">
+              <figcaption><span>🎨 Designing with CSS</span></figcaption>
+            </figure>
+            <figure class="slide" style="background: linear-gradient(135deg, #fb923c, #ef4444)" role="group" aria-roledescription="slide" aria-label="3 of 4">
+              <figcaption><span>⚡ Injecting Interactivity</span></figcaption>
+            </figure>
+            <figure class="slide" style="background: linear-gradient(135deg, #60a5fa, #3b82f6)" role="group" aria-roledescription="slide" aria-label="4 of 4">
+              <figcaption><span>🚀 Shipping Code</span></figcaption>
+            </figure>
+          </div>
+
+          <button class="slider-btn slider-btn--prev" id="sliderPrev" aria-label="Previous slide">&#8249;</button>
+          <button class="slider-btn slider-btn--next" id="sliderNext" aria-label="Next slide">&#8250;</button>
+          <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Select a slide"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Say Hello!</h3>
+            <p>
+              Whether you have a question, a project idea, or just want to chat about tech (or sports cars!), my inbox is always open. 
+            </p>
+            <address class="contact-items" style="font-style: normal;">
+              <div class="contact-item">
+                <span aria-hidden="true">📧</span>
+                <a href="mailto:harshnakhale22@gmail.com">harshnakhale22@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <span aria-hidden="true">📞</span>
+                <a href="tel:+919226729330">+91 9226 729 330</a>
+              </div>
+              <div class="contact-item">
+                <span aria-hidden="true">🐙</span>
+                <a href="https://github.com/harsh11m" target="_blank" rel="noopener noreferrer">github.com/harsh11m</a>
+              </div>
+              
+            </address>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="name">Full Name <span class="required" aria-label="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="name" required aria-describedby="nameError" />
+              <span class="form-error" id="nameError" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span class="required" aria-label="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" autocomplete="email" required aria-describedby="emailError" />
+              <span class="form-error" id="emailError" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject <span class="required" aria-label="required">*</span></label>
+              <input type="text" id="subject" name="subject" placeholder="What's on your mind?" autocomplete="off" required aria-describedby="subjectError" />
+              <span class="form-error" id="subjectError" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span class="required" aria-label="required">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required aria-describedby="messageError charCount"></textarea>
+              <span class="form-error" id="messageError" role="alert" aria-live="polite"></span>
+              <span class="char-count" id="charCount" aria-live="polite">0 / 20 characters minimum</span>
+            </div>
+
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p>Designed &amp; Built by <strong>Harsh Nakhale</strong></p>
+    <p class="footer-sub">
+      Crafted with HTML, CSS &amp; JS · 
+      <a href="https://github.com/harsh11m" target="_blank" rel="noopener noreferrer">github.com/harsh11m</a> · 
+      <span id="footerYear"></span>
+    </p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
